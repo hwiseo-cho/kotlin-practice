@@ -1,4 +1,4 @@
-package pratice1;
+package practice1;
 
 import org.jetbrains.annotations.Nullable;
 
