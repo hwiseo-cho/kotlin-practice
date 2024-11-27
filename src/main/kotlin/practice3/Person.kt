@@ -12,7 +12,7 @@ fun main() {
 class Person(
     // 주 생성자
     name: String,
-    var age: Int
+    var age: Int = 3
 ) {
     var name = name
         set(value) {
