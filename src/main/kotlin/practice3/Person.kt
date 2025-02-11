@@ -5,7 +5,7 @@ fun main() {
     println(p.name) // getter
     p.age = 1 // setter
     println(p.age)
-    println(p.isAdult)
+    //println(p.isAdult)
     Person()
 }
 
@@ -30,11 +30,11 @@ class Person(
     }
     constructor(): this("asdf")
 
-    fun isAdult(): Boolean {
+    private fun isAdult(): Boolean {
         return this.age >= 20
     }
 
-    val isAdult: Boolean
+    private val isAdults: Boolean
         get() = this.age >= 20
 
 
